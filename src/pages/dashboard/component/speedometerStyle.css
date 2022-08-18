@@ -1,0 +1,13 @@
+.spedometer-item {
+  width: 100%;
+  text-align: center;
+  /* margin: auto 0; */
+  /* background-color: red; */
+}
+
+.text-title {
+  display: block-inline;
+  padding: 10px 1em;
+  background-color: grey;
+  color: white;
+}
