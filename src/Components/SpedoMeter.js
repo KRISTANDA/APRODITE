@@ -6,7 +6,7 @@ function Spedometer(props) {
     return (
       <div>
         <ReactSpeedometer
-        width={300}
+        width={250}
         needleHeightRatio={0.8}
         value={780}
         customSegmentStops={[0, 270, 700, 1000]}

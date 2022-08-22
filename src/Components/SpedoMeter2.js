@@ -3,7 +3,7 @@ import ReactSpeedometer from "react-d3-speedometer"
 
 function Spedometer2(props) {
     return <ReactSpeedometer
-        width={300}
+        width={250}
         needleHeightRatio={0.8}
         value={780}
         customSegmentStops={[0, 270, 700, 1000]}

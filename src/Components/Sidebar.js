@@ -16,14 +16,14 @@ function Sidebar() {
         <nav id="sidebarMenu" className="col-md-2 col-lg-2 d-md-block sidebar collapse ">
                 <div className="position-sticky pt-3">
                     <h4 className="fw-bold text-center text-light">  APRODITE</h4>
-                    <ul className="nav flex-column mt-5">
+                    <ul className="nav flex-column mt-5 navs">
                         <li>
                             <NavLink activeClassName="" className="nav-link text-white fs-5 " to="/overview">
                                 <i class=' me-3 bx bxs-pie-chart-alt-2'></i>
                                  Overview
                             </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink exact activeClassName="" className="nav-link text-white fs-5 " to="/ideas">
                                 <i class="me-3 bi bi-lightbulb-fill"></i> 
                                  Ideas
@@ -34,7 +34,7 @@ function Sidebar() {
                                 <i class='me-3 bx bxs-user'></i>
                                 Agents
                              </NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
         </nav>

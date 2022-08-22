@@ -1,9 +1,9 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route , Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 import DashboardPage from "../src/pages/dashboard/dashboard"
 
-import Dashboard from "./Admin/Dashboard"
+import Dashboard from "./pages/dashboard/dashboard";
 import Overview from "./Admin/Overview/Index"
 import OverAdd from "./Admin/Overview/Add"
 import OverProgres from "./Admin/Overview/Progres"
@@ -24,8 +24,9 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Navigate to="dashboard"></Navigate>} />
         <Route exact path="/dashboard" element={<DashboardPage></DashboardPage>}></Route>
+        {/* <Route exact path="/" element={<Dashboard />} />
 
-        {/* <Route path="/Speed" element={<Speed />} />   
+        <Route path="/Speed" element={<Speed />} />   
 
         <Route path="/overview" element={<Overview />} />
         <Route path="/overview/add" element={<OverAdd />} />
