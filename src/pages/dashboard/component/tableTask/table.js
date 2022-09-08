@@ -1,15 +1,15 @@
-import React from 'react';
-import {Table, Button } from 'react-bootstrap'
+import { Table, Button } from "react-bootstrap"
+
 function TableTask() {
     return (
-        <div className='tablevl'>
+        <div className="tablevl">
             <Table bordered hover >
                 <thead>
                     <tr>
                         <th>Tasks</th>
                         <th>Next Action</th>
                         <th>Assigned To</th>
-                        <th>Crated By</th>
+                        <th>Created By</th>
                         <th>Update By</th>
                         <th>Last Updated</th>
                         <th>Status</th>
@@ -20,7 +20,7 @@ function TableTask() {
                 <tbody>
                     <tr>
                         <td>
-                            <a href='#!' className='text-decoration-none'>Accounts Documnets</a>
+                            <a href="#!" className="text-decoration-none">Accounts Documnets</a>
                         </td>
                         <td>Close</td>
                         <td>Admin</td>
@@ -31,20 +31,20 @@ function TableTask() {
                         <td>Low</td>
                         
                         <td>
-                            <Button className='me-3' variant='danger'>
-                                Doness
+                            <Button className="me-3" variant="danger">
+                                380 day overdue
                             </Button>
-                            <Button className='me-3' variant='primary'>
-                                Done
+                            <Button className="me-3" variant="primary">
+                                Assigned
                             </Button>
-                            <Button variant='success'>
-                                Dones
+                            <Button variant="success">
+                                Created
                             </Button>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <a href='#!' className='text-decoration-none'>Accounts Documnets</a>
+                            <a href="#!" className="text-decoration-none">Accounts Documnets</a>
                         </td>
                         <td>Close</td>
                         <td>Admin</td>
@@ -55,20 +55,20 @@ function TableTask() {
                         <td>Low</td>
                         
                         <td>
-                            <Button className='me-3' variant='danger'>
-                                Doness
+                            <Button className="me-3" variant="danger">
+                                380 day overdue
                             </Button>
-                            <Button className='me-3' variant='primary'>
-                                Done
+                            <Button className="me-3" variant="primary">
+                                Assigned
                             </Button>
-                            <Button variant='success'>
-                                Dones
+                            <Button variant="success">
+                                Created
                             </Button>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <a href='#!' className='text-decoration-none'>Accounts Documnets</a>
+                            <a href="#!" className="text-decoration-none">Accounts Documnets</a>
                         </td>
                         <td>Close</td>
                         <td>Admin</td>
@@ -79,14 +79,14 @@ function TableTask() {
                         <td>Low</td>
                         
                         <td>
-                            <Button className='me-3' variant='danger'>
-                                Doness
+                            <Button className="me-3" variant="danger">
+                                380 day overdue
                             </Button>
-                            <Button className='me-3' variant='primary'>
-                                Done
+                            <Button className="me-3" variant="primary">
+                                Assigned
                             </Button>
-                            <Button variant='success'>
-                                Dones
+                            <Button variant="success">
+                                Created
                             </Button>
                         </td>
                     </tr>
@@ -97,4 +97,4 @@ function TableTask() {
     );
 }
 
-export default TableTask;
+export default TableTask

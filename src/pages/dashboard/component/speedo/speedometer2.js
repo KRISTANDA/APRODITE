@@ -37,20 +37,23 @@ function Speedometer2(props) {
 
     return (
       <div className="spedometer-item">
-        <div>
+        <div className="title">
             <span className="text-title">{props.title}</span>
         </div>
-        <ReactSpeedometer
-        width={300}
-        needleHeightRatio={0.8}
-        value={percent}
-        maxValue={100}
-        customSegmentStops={ [0 , 25, 75, 100]}
-        segmentColors={['#198754', '#ffc107', '#dc3545']}
-        needleTransition="easeElastic"
-        needleColor={'#0071FF'}
-        textColor={'#000000'}
-      />
+        <div className="spedometer-svg">
+          <ReactSpeedometer
+          width={300}
+          height={200}
+          needleHeightRatio={0.8}
+          value={percent}
+          maxValue={100}
+          customSegmentStops={ [0 , 25, 50, 75, 100]}
+          segmentColors={['#13ac57', '#ffd154', '#ffd154', '#fb0216']}
+          needleTransition="easeElastic"
+          needleColor={'#0071FF'}
+          textColor={'#000000'}
+        />
+        </div>
       </div>
     )
   }

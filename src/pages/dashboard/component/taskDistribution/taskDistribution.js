@@ -43,24 +43,23 @@ class taskDistribution extends Component {
     const end = new Date(`${START_YEAR + NUM_OF_YEARS}`)
     return (
       <div className="app p-4 border-top border-dark">
-        <div className='d-flex justify-content-between align-items-center border-bottom'>
-          <h1 className="title text-start">Task Distribution</h1>
-          <Form.Select aria-label="Default select example" className='filter shadow-sm b' id='add'>
-                <option>JANUARY </option>
-                <option value="1">FEBRUARY</option>
-                <option value="2">MARCH</option>
-                <option value="3">APRIL</option>
-                <option value="4">MAY</option>
-                <option value="5">JUNE</option>
-                <option value="6">JULY</option>
-                <option value="7">AUGUST</option>
-                <option value="8">SEPTEMBER</option>
-                <option value="9">OCTOBER</option>
-                <option value="10">NOVEMBER</option>
-                <option value="11">DESEMBER</option>
+        <div className="d-flex justify-content-between align-items-center border-bottom">
+          <h2 className="title text-start">Task Distribution</h2>
+          <Form.Select aria-label="Default select example" className="filter shadow-sm b mb-4" id="add">
+                <option value="1">JANUARY </option>
+                <option value="2">FEBRUARY</option>
+                <option value="3">MARCH</option>
+                <option value="4">APRIL</option>
+                <option value="5">MAY</option>
+                <option value="6">JUNE</option>
+                <option value="7">JULY</option>
+                <option value="8">AUGUST</option>
+                <option value="9">SEPTEMBER</option>
+                <option value="10">OCTOBER</option>
+                <option value="11">NOVEMBER</option>
+                <option value="12">DESEMBER</option>
           </Form.Select>
         </div>
-        <h3 className='text-center mt-4 fw-bold'>JANUARY</h3>
         <Timeline
           scale={{
             start,

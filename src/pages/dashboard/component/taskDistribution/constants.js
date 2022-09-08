@@ -13,7 +13,7 @@ export const TIME_NAME = [
     '9 AM',
     '10 AM',
     '11 AM',
-    '12 PM',
+    '12 AM',
     '1 PM',
     '2 PM',
     '3 PM',
@@ -25,7 +25,7 @@ export const TIME_NAME = [
     '9 PM',
     '10 PM',
     '11 PM',
-    '12 AM',
+    '12 PM',
 ]
 export const TIME_PER_DAY = 24
 export const MONTHS_PER_YEAR = 12
